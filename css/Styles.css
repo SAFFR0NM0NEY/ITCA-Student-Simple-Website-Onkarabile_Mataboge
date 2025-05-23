@@ -79,7 +79,7 @@ button {
 }
 
 button:hover {
-  background-color: #241804; /* Slightly darker pink on hover */
+  background-color: #f2f0eb /* Slightly darker pink on hover */
   transform: scale(1.05); /* Slight pop effect */
 }
 
