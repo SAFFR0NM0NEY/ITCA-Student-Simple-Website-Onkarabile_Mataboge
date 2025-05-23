@@ -65,3 +65,30 @@ nav a {
     transition: background-color 0.3s ease;
     font-weight: bold;
 }
+button {
+  background-color: rgb(219, 213, 207);
+  color: rgb(235, 224, 224);
+  border: none;
+  padding: 10px 20px;
+  margin-top: 10px;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+  background-color: #241804; /* Slightly darker pink on hover */
+  transform: scale(1.05); /* Slight pop effect */
+}
+
+button:active {
+  transform: scale(0.95);
+}
+
+.product-card button {
+  display: inline-block;
+  margin-top: 10px;
+}  
+
